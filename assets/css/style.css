@@ -1,14 +1,33 @@
 body{
   background-color: rgb(95, 20, 84 ,.6);
 }
-.mainheading{
-  font-size: 48px;
+.mainheading,
+.subheading{
+  color: firebrick;
   font-weight: 100;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: italic;
+  text-align: center;
+  text-transform: capitalize;
+}
+.mainheading{
+  font-size: 48px;
+  text-decoration: underline wavy red;
+}
+.page-link{
+  background-color: white;
+  color: aqua;
+  font-weight: normal;
+  text-decoration: none;
+
 }
 .artcontent{
   color: yellow;
   font-size: 24px;
   line-height: 1.3em;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+.colorcoral{
+  color: coral;
 }
